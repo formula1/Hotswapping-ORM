@@ -1,6 +1,5 @@
 var cluster = require('cluster');
 var ee = require('events').EventEmitter;
-var formatters = require('./formatters');
 
 var Connection = require('./Connection');
 var Adapter = require('./Adapter');
@@ -92,7 +91,5 @@ Manager.prototype.removeCollection = function(collection){
   delete this.collection[name];
   return oc;
 };
-
-Manager.STATES = require("./manager-states.json");
 
 module.exports = Manager;

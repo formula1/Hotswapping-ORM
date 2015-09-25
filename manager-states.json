@@ -1,7 +1,0 @@
-{
-  "INITIALIZING": "initializing",
-  "QUEUED": "queued",
-  "ONLINE": "online",
-  "OFFLINE":"offline",
-  "REJECTED":"fail"
-}
