@@ -1,0 +1,8 @@
+{
+  "QUEUED": "queued",
+  "INITIALIZING": "initializing",
+  "NOW_AVAILABLE": "now available",
+  "READY": "ready",
+  "STOPPED": "stopped",
+  "REJECTED": "fail"
+}
